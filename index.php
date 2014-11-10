@@ -16,6 +16,7 @@
 		<h2>Interested? Sign up!</h2>
 		<input type="email" id="mail" placeholder="e-mail address">
                 <button id="signup">Shoot me</button>
+		<div id='feedback'></div>
 	</div>
 </section>
 <?php include( 'footer.php' ); ?>

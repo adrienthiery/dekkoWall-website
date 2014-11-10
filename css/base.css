@@ -1,14 +1,20 @@
+html, body {
+	height: auto;
+}
+
 body {
 	min-height: 800px;
 	text-align: center;
 	font-family: 'Helvetica', sans-serif;
+	position: absolute;
+	top: 0;
 }
 
 * {
 	box-sizing: border-box;
 }
 
-body, img, div, section, header, footer, article, aside, figure {
+html, body, img, div, section, header, footer, article, aside, figure {
 	width: 100%;
 	max-width: 100%;
 	margin: 0;
