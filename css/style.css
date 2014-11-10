@@ -18,6 +18,32 @@ body {
 	filter: blur( 4px );
 }
 
+.content-size {
+	background: rgba( 50, 50, 50, 0.5 );
+}
+
+.prelaunch {
+	display: inline-block;
+	font-family: 'Indie Flower', cursive;
+	color: #b00;
+	background-color: white;
+	padding: 2px 0.5em;
+	-ms-transform: rotate(-2deg); /* IE 9 */
+	-webkit-transform: rotate(-2deg); /* Chrome, Safari, Opera */
+	transform: rotate(-2deg);
+}
+
+.logo-media {
+	display: inline-block;
+	height: 2em;
+	width: auto;
+	margin: 5px;
+	background: white;
+	padding: 5px;
+	border: none;
+	outline: 0;
+}
+
 .explain > img {
 	height: 100%;
 	width: auto;
@@ -30,6 +56,7 @@ body {
 
 #signup {
 	text-align: center;
+	padding-bottom: 1em;
 }
 
 input, button {
@@ -40,7 +67,7 @@ input, button {
 }
 
 input {
-        width:50%;
+        width:30%;
         border: solid 1px #ccc;
         background:white;
 }
@@ -48,7 +75,7 @@ input {
 button {
         height:2em;
         margin-left: -5px;
-        width: 20%;
+        width: 15%;
         background:#0088be;
         color:white;
         cursor: pointer;
