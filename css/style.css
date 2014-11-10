@@ -1,0 +1,56 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+.bg {
+	background: url( ../img/poster.png ) center center no-repeat;
+	background-size: cover;
+	opacity: 0.6;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	-webkit-filter: blur( 4px );
+	-moz-filter: blur( 4px );
+	filter: blur( 4px );
+}
+
+.explain > img {
+	height: 100%;
+	width: auto;
+	float: right;
+}
+
+.explain {
+	height: 600px;
+}
+
+#signup {
+	text-align: center;
+}
+
+input, button {
+        height: 2em;
+        border: 0;
+        vertical-align: top;
+        padding: 0.5em;
+}
+
+input {
+        width:50%;
+        border: solid 1px #ccc;
+        background:white;
+}
+
+button {
+        height:2em;
+        margin-left: -5px;
+        width: 20%;
+        background:#0088be;
+        color:white;
+        cursor: pointer;
+}
+
