@@ -3,6 +3,12 @@ body {
 	color: white;
 }
 
+header {
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+
 .bg {
 	background: url( ../img/poster.png ) center center no-repeat;
 	background-size: cover;
@@ -18,8 +24,30 @@ body {
 	filter: blur( 4px );
 }
 
-.content-size {
-	background: rgba( 100, 100, 100, 0.7 );
+.full-hw { 
+	padding-top: 10%;
+	z-index: 0;
+}
+
+.step0 {
+	background-color: rgba( 100, 100, 100, 0.7 );
+}
+.step1 {
+	background-color: rgba( 200, 100, 100, 0.7 );
+}
+.step2 {
+	background-color: rgba( 100, 200, 100, 0.7 );
+}
+.step3 {
+	background-color: rgba( 100, 100, 200, 0.7 );
+}
+
+.hidden {
+	opacity: 0;
+}
+
+.visible {
+	opacity: 1;
 }
 
 .prelaunch {

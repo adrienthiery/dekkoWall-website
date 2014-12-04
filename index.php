@@ -1,9 +1,18 @@
 <?php include( 'header.php' ); ?>
 <div class='bg'>
 </div>
-<section class='content-size'>
-	<div class='explain'>
-		<img src='img/poster.png' />
+<section class='step0 full-hw'>
+	<div class='content-size'>
+		<p>Libraries, CD trays, DVD shelves in our homes are disappearing</p>
+	</div>
+</section>
+<section class='step1 full-hw'>
+	<div class='content-size'>
+		<p>We want to replace them</p>
+	</div>
+</section>
+<section class='step2 full-hw'>
+	<div class='content-size'>
 		<ol>
 			<li>Connect your media services <br />
 			<img class='logo-media' src='img/spotify.png' alt='Spotify' />
@@ -20,8 +29,12 @@
 		</ol>
 	</div>
 </section>
-<br />
-<section class='content-size'>
+<section class='step3 full-hw'>
+	<div class='content-size'>
+		<p>Get an awesome Poster every 2 months!</p><img src='img/poster.png' />
+	</div>
+</section>
+<section class='full-hw'>
 	<div id='signup'>
 		<h2>Interested? Sign up!</h2>
 		<input type="email" id="mail" placeholder="e-mail address">

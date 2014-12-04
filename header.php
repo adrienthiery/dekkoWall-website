@@ -8,7 +8,8 @@
         <meta name="author" content="@joydisee">
         <link rel='stylesheet' id='base-css'  href='css/base.css' type='text/css' media='all' />
         <link rel='stylesheet' id='main-css'  href='css/style.css' type='text/css' media='all' />
-<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+        <link rel='stylesheet' id='animations'  href='css/animate.css' type='text/css' media='all' />
+        <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<header>
